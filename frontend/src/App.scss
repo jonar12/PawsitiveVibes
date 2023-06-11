@@ -18,7 +18,10 @@ main {
 }
 
 body {
-  background: $bgColor url(assets/images/bg.svg);
+  background-color: #050505;
+  opacity: 1;
+  background: radial-gradient(circle, transparent 20%, #050505 20%, #050505 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #050505 20%, #050505 80%, transparent 80%, transparent) 20px 20px, linear-gradient(#4000ff 1.6px, transparent 1.6px) 0 -0.8px, linear-gradient(90deg, #4000ff 1.6px, #050505 1.6px) -0.8px 0;
+  background-size: 40px 40px, 40px 40px, 20px 20px, 20px 20px;
 }
 
 .link-text {

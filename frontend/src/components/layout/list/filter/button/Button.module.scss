@@ -4,15 +4,15 @@
   background-color: transparent;
 
   &:hover {
-    background-color: $textColorSecondary;
+    background-color: #911bf1;
   }
 }
 
 .active {
-  background-color: #212121;
+  background-color: #4000ff;
   cursor: default;
 
   &:hover {
-    background-color: #212121;
+    background-color: #911bf1;
   }
 }

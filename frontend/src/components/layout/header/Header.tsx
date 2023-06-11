@@ -9,16 +9,17 @@ type Props = {
 };
 
 function Header({ isAccountVisible }: Props) {
-  return (
-    <header className={styles.header}>
-      <nav className={styles.nav}>
-        <Logo />
-        <OnLogin>
-          <Menu />
-        </OnLogin>
-      </nav>
-      {isAccountVisible && <Account />}
-    </header>
+  // @ts-ignore
+    return (
+      <header className={styles.header}>
+        <nav className={styles.nav}>
+            <Logo />
+          <OnLogin>
+            <Menu />
+          </OnLogin>
+        </nav>
+        {isAccountVisible && <Account />}
+      </header>
   );
 }
 

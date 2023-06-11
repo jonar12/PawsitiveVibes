@@ -10,7 +10,7 @@ type Props = {
 function Header({ text, filter }: Props) {
   return (
     <header className={styles.header}>
-      <h2 className={styles.text}>{text}</h2>
+      <h2 className={styles.text}>pawsitivivevibes store</h2>
       {filter && <Filter value={filter.value} list={filter.list} onChange={filter.onChange} />}
     </header>
   );
