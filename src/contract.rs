@@ -3,7 +3,7 @@ use gstd::{errors::Result as GstdResult, msg, prelude::*, ActorId, MessageId};
 use market_io::*;
 
 const MIN_TREASURY_FEE: u16 = 0;
-const MAX_TREASURT_FEE: u16 = 5;
+const MAX_TREASURY_FEE: u16 = 5;
 pub const BASE_PERCENT: u16 = 100;
 pub const MINIMUM_VALUE: u64 = 500;
 
